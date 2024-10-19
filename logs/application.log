@@ -1,0 +1,146 @@
+2024-10-15 19:06:36 - INFO - c.c.a.p.p.ProdReadyFeatureApplication - Starting ProdReadyFeatureApplication using Java 22.0.2 with PID 1680 (C:\Users\DELL\Desktop\SpringProjects\prod-ready-feature - Copy_Local\target\classes started by DELL in C:\Users\DELL\Desktop\SpringProjects\prod-ready-feature - Copy_Local)
+2024-10-15 19:06:36 - INFO - c.c.a.p.p.ProdReadyFeatureApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-15 19:06:43 - INFO - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-10-15 19:06:43 - INFO - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-15 19:06:43 - INFO - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-15 19:06:43 - INFO - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-15 19:06:45 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-10-15 19:06:46 - INFO - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@ee08908
+2024-10-15 19:06:46 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-10-15 19:06:48 - ERROR - o.h.m.internal.MetadataContext - HHH015007: Illegal argument on static metamodel field injection : org.hibernate.envers.DefaultRevisionEntity_#class_; expected type :  org.hibernate.metamodel.model.domain.internal.EntityTypeImpl; encountered type : jakarta.persistence.metamodel.MappedSuperclassType
+2024-10-15 19:06:51 - WARN - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-15 19:06:53 - INFO - o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-10-15 19:06:54 - INFO - c.c.a.p.p.ProdReadyFeatureApplication - Started ProdReadyFeatureApplication in 19.575 seconds (process running for 21.635)
+2024-10-15 19:07:05 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-10-15 19:07:05 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-10-15 19:07:13 - INFO - c.c.a.p.p.ProdReadyFeatureApplication - Starting ProdReadyFeatureApplication using Java 22.0.2 with PID 6900 (C:\Users\DELL\Desktop\SpringProjects\prod-ready-feature - Copy_Local\target\classes started by DELL in C:\Users\DELL\Desktop\SpringProjects\prod-ready-feature - Copy_Local)
+2024-10-15 19:07:13 - INFO - c.c.a.p.p.ProdReadyFeatureApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-15 19:07:19 - INFO - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-10-15 19:07:19 - INFO - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-15 19:07:19 - INFO - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-15 19:07:19 - INFO - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-15 19:07:22 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-10-15 19:07:22 - INFO - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@46ec4883
+2024-10-15 19:07:22 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-10-15 19:07:25 - ERROR - o.h.m.internal.MetadataContext - HHH015007: Illegal argument on static metamodel field injection : org.hibernate.envers.DefaultRevisionEntity_#class_; expected type :  org.hibernate.metamodel.model.domain.internal.EntityTypeImpl; encountered type : jakarta.persistence.metamodel.MappedSuperclassType
+2024-10-15 19:07:28 - WARN - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-15 19:07:32 - INFO - o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-10-15 19:07:32 - INFO - c.c.a.p.p.ProdReadyFeatureApplication - Started ProdReadyFeatureApplication in 21.186 seconds (process running for 22.693)
+2024-10-15 19:07:53 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-10-15 19:07:53 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-10-15 19:09:44 - INFO - c.c.a.p.p.ProdReadyFeatureApplication - Starting ProdReadyFeatureApplication using Java 22.0.2 with PID 8080 (C:\Users\DELL\Desktop\SpringProjects\prod-ready-feature - Copy_Local\target\classes started by DELL in C:\Users\DELL\Desktop\SpringProjects\prod-ready-feature - Copy_Local)
+2024-10-15 19:09:44 - INFO - c.c.a.p.p.ProdReadyFeatureApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-15 19:09:51 - INFO - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-10-15 19:09:51 - INFO - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-15 19:09:51 - INFO - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-15 19:09:51 - INFO - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-15 19:09:54 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-10-15 19:09:54 - INFO - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@46dbe131
+2024-10-15 19:09:54 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-10-15 19:09:57 - ERROR - o.h.m.internal.MetadataContext - HHH015007: Illegal argument on static metamodel field injection : org.hibernate.envers.DefaultRevisionEntity_#class_; expected type :  org.hibernate.metamodel.model.domain.internal.EntityTypeImpl; encountered type : jakarta.persistence.metamodel.MappedSuperclassType
+2024-10-15 19:09:58 - WARN - o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jpaAuditingHandler': Cannot create inner bean '(inner bean)#64d202f5' of type [org.springframework.aop.framework.ProxyFactoryBean] while setting bean property 'auditorAware'
+2024-10-15 19:09:58 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-10-15 19:09:58 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-10-15 19:09:58 - INFO - o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2024-10-15 19:09:58 - ERROR - o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean named 'getAuditorImpl' that could not be found.
+
+
+Action:
+
+Consider defining a bean named 'getAuditorImpl' in your configuration.
+
+2024-10-15 19:10:36 - INFO - c.c.a.p.p.ProdReadyFeatureApplication - Starting ProdReadyFeatureApplication using Java 22.0.2 with PID 3832 (C:\Users\DELL\Desktop\SpringProjects\prod-ready-feature - Copy_Local\target\classes started by DELL in C:\Users\DELL\Desktop\SpringProjects\prod-ready-feature - Copy_Local)
+2024-10-15 19:10:36 - INFO - c.c.a.p.p.ProdReadyFeatureApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-15 19:10:47 - INFO - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-10-15 19:10:47 - INFO - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-15 19:10:47 - INFO - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-15 19:10:47 - INFO - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-15 19:10:50 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-10-15 19:10:51 - INFO - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@55ef225f
+2024-10-15 19:10:51 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-10-15 19:10:55 - ERROR - o.h.m.internal.MetadataContext - HHH015007: Illegal argument on static metamodel field injection : org.hibernate.envers.DefaultRevisionEntity_#class_; expected type :  org.hibernate.metamodel.model.domain.internal.EntityTypeImpl; encountered type : jakarta.persistence.metamodel.MappedSuperclassType
+2024-10-15 19:10:56 - WARN - o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jpaAuditingHandler': Cannot create inner bean '(inner bean)#26e2659f' of type [org.springframework.aop.framework.ProxyFactoryBean] while setting bean property 'auditorAware'
+2024-10-15 19:10:56 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-10-15 19:10:56 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-10-15 19:10:56 - INFO - o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2024-10-15 19:10:57 - ERROR - o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean named 'getAuditorImpl' that could not be found.
+
+
+Action:
+
+Consider defining a bean named 'getAuditorImpl' in your configuration.
+
+2024-10-15 19:13:04 - INFO - c.c.a.p.p.ProdReadyFeatureApplication - Starting ProdReadyFeatureApplication using Java 22.0.2 with PID 13220 (C:\Users\DELL\Desktop\SpringProjects\prod-ready-feature - Copy_Local\target\classes started by DELL in C:\Users\DELL\Desktop\SpringProjects\prod-ready-feature - Copy_Local)
+2024-10-15 19:13:04 - INFO - c.c.a.p.p.ProdReadyFeatureApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-15 19:13:13 - INFO - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-10-15 19:13:13 - INFO - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-15 19:13:13 - INFO - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-15 19:13:14 - INFO - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-15 19:13:21 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-10-15 19:13:21 - INFO - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4167e69a
+2024-10-15 19:13:21 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-10-15 19:13:25 - ERROR - o.h.m.internal.MetadataContext - HHH015007: Illegal argument on static metamodel field injection : org.hibernate.envers.DefaultRevisionEntity_#class_; expected type :  org.hibernate.metamodel.model.domain.internal.EntityTypeImpl; encountered type : jakarta.persistence.metamodel.MappedSuperclassType
+2024-10-15 19:13:29 - WARN - o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jpaAuditingHandler': Cannot create inner bean '(inner bean)#4771d7f2' of type [org.springframework.aop.framework.ProxyFactoryBean] while setting bean property 'auditorAware'
+2024-10-15 19:13:29 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-10-15 19:13:29 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-10-15 19:13:29 - INFO - o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2024-10-15 19:13:29 - ERROR - o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean named 'getAuditorImpl' that could not be found.
+
+
+Action:
+
+Consider defining a bean named 'getAuditorImpl' in your configuration.
+
+2024-10-15 19:17:22 - INFO - c.c.a.p.p.ProdReadyFeatureApplication - Starting ProdReadyFeatureApplication using Java 22.0.2 with PID 14040 (C:\Users\DELL\Desktop\SpringProjects\prod-ready-feature - Copy_Local\target\classes started by DELL in C:\Users\DELL\Desktop\SpringProjects\prod-ready-feature - Copy_Local)
+2024-10-15 19:17:22 - INFO - c.c.a.p.p.ProdReadyFeatureApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-15 19:17:29 - INFO - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-10-15 19:17:29 - INFO - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-15 19:17:29 - INFO - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-15 19:17:29 - INFO - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-15 19:17:32 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-10-15 19:17:33 - INFO - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@38f1c12a
+2024-10-15 19:17:33 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-10-15 19:17:35 - ERROR - o.h.m.internal.MetadataContext - HHH015007: Illegal argument on static metamodel field injection : org.hibernate.envers.DefaultRevisionEntity_#class_; expected type :  org.hibernate.metamodel.model.domain.internal.EntityTypeImpl; encountered type : jakarta.persistence.metamodel.MappedSuperclassType
+2024-10-15 19:17:37 - WARN - o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jpaAuditingHandler': Cannot create inner bean '(inner bean)#53a5d8d2' of type [org.springframework.aop.framework.ProxyFactoryBean] while setting bean property 'auditorAware'
+2024-10-15 19:17:37 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-10-15 19:17:37 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-10-15 19:17:37 - INFO - o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2024-10-15 19:17:37 - ERROR - o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean named 'getAuditorImpl' that could not be found.
+
+
+Action:
+
+Consider defining a bean named 'getAuditorImpl' in your configuration.
+
