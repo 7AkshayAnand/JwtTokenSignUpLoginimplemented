@@ -17,6 +17,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 
+
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
@@ -35,6 +36,9 @@ public class UserService implements UserDetailsService {
         return userRepository.findByEmail(username).orElseThrow(()->new ResourceNotFoundException("user with email : "+" not found"));
     }
 
+    public User getUserbyId(Long userId){
+        return userRepository.findById(userId).orElseThrow(()->new ResourceNotFoundException("User with given id "+userId+" not found"));
+    }
     public UserDTO signUp(SignUpDTO signUpDTO) {
       Optional<User> user= userRepository.findByEmail(signUpDTO.getEmail());
       if(user.isPresent()){

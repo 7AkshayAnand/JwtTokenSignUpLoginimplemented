@@ -16,6 +16,7 @@ import java.util.Set;
 
 @Service
 public class JwtService {
+//    below we are getting the secret key value from the application.properties file
     @Value("${jwt.secretKey}")
     private String jwtSecretKey;
 
@@ -28,7 +29,7 @@ public class JwtService {
                 .claim("email",user.getEmail())
                 .claim("roles", Set.of("ADMIN","USER"))
                 .setIssuedAt(new Date())
-                .setExpiration(new Date(System.currentTimeMillis()+1000*60))
+                .setExpiration(new Date(System.currentTimeMillis()+1000*60*7))
                 .signWith(getSecretKey())
                 .compact();
     }

@@ -1,8 +1,11 @@
 package com.codingshuttle.akshay.prod_ready_features.prod_ready_feature.config;
 
+import com.codingshuttle.akshay.prod_ready_features.prod_ready_feature.filters.JwtAuthFilter;
+import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.config.Customizer;
 import org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration;
 import org.springframework.security.config.annotation.web.builders.*;
@@ -15,12 +18,13 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 import org.springframework.security.web.*;
+import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
 @Configuration
 @EnableWebSecurity
-
+@RequiredArgsConstructor
 public class WebSecurityConfig {
-
+    private final JwtAuthFilter jwtAuthFilter;
 //    below we are defining our customized filter chain
     @Bean
     SecurityFilterChain securityFilterChain(HttpSecurity httpSecurity)throws Exception{
@@ -42,9 +46,10 @@ public class WebSecurityConfig {
 //                                });
        httpSecurity.authorizeHttpRequests(auth->
               auth.requestMatchers("/auth/**","/posts").permitAll()
-                      .requestMatchers("/posts/**").hasAnyRole("ADMIN")
+//                      .requestMatchers("/posts/**").hasAnyRole("ADMIN")
                       .anyRequest().authenticated()).csrf(csrfConfig->csrfConfig.disable())
-               .sessionManagement(sessionconfig->sessionconfig.sessionCreationPolicy(SessionCreationPolicy.STATELESS));
+               .sessionManagement(sessionconfig->sessionconfig.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
+               .addFilterBefore(jwtAuthFilter, UsernamePasswordAuthenticationFilter.class);
 
 
 //        httpSecurity.authorizeHttpRequests(auth->
@@ -71,10 +76,6 @@ public class WebSecurityConfig {
 //      return new InMemoryUserDetailsManager(normalUser,adminUser);
 //    }
 //
-    @Bean
-    PasswordEncoder passwordEncoder(){
-        return new BCryptPasswordEncoder();
-    }
 
     @Bean
     AuthenticationManager authenticationManager(AuthenticationConfiguration config) throws Exception{
