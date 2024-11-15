@@ -22,6 +22,10 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 
 @Configuration
 @EnableWebSecurity
+
+//•  @EnableWebSecurity is essential for enabling Spring Security in your web application and for allowing you to define custom security configurations (such as custom filters, authentication, authorization rules, etc.).
+//        •  Without this annotation, your security configuration, including things like authentication and custom filters, won't be applied.
+
 @RequiredArgsConstructor
 public class WebSecurityConfig {
     private final JwtAuthFilter jwtAuthFilter;
@@ -77,6 +81,9 @@ public class WebSecurityConfig {
 //    }
 //
 
+
+
+//    we need this below bean while performing the login see login() of AuthService
     @Bean
     AuthenticationManager authenticationManager(AuthenticationConfiguration config) throws Exception{
         return config.getAuthenticationManager();
